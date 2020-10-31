@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e63ab1deed.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="main.css" />
+  <title>FreeLance Cost</title>
+</head>
+
+<body>
+
+  <div class="landing">
+    <div class="landing-text-container">
+      <p class="landing-title">Free Lance</p>
+      <p class="landing-text"></p>
+      
+    </div>
+  </div>
+
+  
+  <div class="calculadora" id="calculadora">
+
+    <div class="card">
+      <div class="card-icon">
+        <i class="fas fa-stopwatch"></i>
+      </div>
+      <div class="card-title">Tempo diário investido</div>
+      <div class="card-text">Quantas horas codando por dia:
+      </div>
+      <div class="card-input">
+        <input type="text" id="horasDiarias">
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="card-icon">
+        <i class="far fa-calendar-alt"></i>
+      </div>
+      <div class="card-title">Dias Efetivos</div>
+      <div class="card-text">Quantidade de dias que você irá estar desenvolvendo a aplicação</div>
+      <div class="card-input">
+        <input type="text" id="diasEfetivos">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-icon">
+        <i class="fas fa-plane"></i>
+      </div>
+      <div class="card-title">Férias por projeto</div>
+      <div class="card-text">Uma parte do valor da sua hora reflete 
+        diretamente na quantidade de dias que você deseja tirar
+        "férias" com o valor total projeto.</div>
+      <div class="card-input">
+        <input type="text" id="diasFerias">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-icon">
+        <i class="fas fa-dollar-sign"></i>
+      </div>
+      <div class="card-title">Valor total do Projeto</div>
+      <div class="card-text">Não podemos esquecer do principal fator que é o total a ser recebido pelo freela.
+        A partir desse valor, é feito o calculo maior.</div>
+      <div class="card-input">
+        <input type="text" id="valorProjeto">
+      </div>
+    </div>
+  </div>
+
+  <div class="calc-control">
+    <button id="calcular">Calcular</button>
+    <div id="resultado">R$</div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
